@@ -2,6 +2,7 @@
     "container": "map",
     "accessToken": "pk.eyJ1IjoibGVlbHZpc3RpIiwiYSI6ImNrZmp2eDA5bjBwdmcyd21qNW5wa2dnejEifQ.OR5IzKix9D_sxyF3DdedCg",
     "style": "mapbox://styles/leelvisti/ckfjzxpor2vb019pqg8ytmbh8",
-    "center": [-118.157, 33.981],
-    "zoom": 9
+    "center": [-118.27, 33.981],
+    "zoom": 10,
+    "pitch": 60
 }
