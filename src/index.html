@@ -6,7 +6,35 @@
     </head>
     <body>
         <main>
+            <header>
+                <div class="title">
+                    Historic Sites in Los Angeles by Neighborhood
+                </div>
+                <div>
+                    <a href="#"></a>
+                </div>
+                <div id="popup">
+                    <h4 class="name"></h4>
+                    <div>
+                        <span class="count"></span>
+                        Historic site(s) cataloged
+                    </div>
+                </div>
+                <div id="legend">
+                    <h4 class="subtitle">Legend</h4>
+                </div>
+                <div id="helper">
+                    <span id="helper-icon">?</span>
+                    <span id="helper-description">Hold Ctrl + click and drag mouse to rotate map</span>
+                </div>
+            </header>
             <div id="map"></div>
+            <template id="legend-entry">
+                <div class="entry">
+                    <span class="color"></span>
+                    <span class="value"></span>
+                </div>
+            </template>
         </main>
     </body>
 </html>

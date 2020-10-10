@@ -15,3 +15,84 @@ main {
 #map {
     height: 100%;
 }
+
+header {
+    top: 10px;
+    left: 10px;
+}
+
+header a {
+    color: rgb(88, 5, 208);
+}
+
+#helper, #legend, #popup, header {
+    position: fixed;
+    z-index: 10;
+    background-color: rgb(202, 202, 202);
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid rgb(25, 29, 65);
+    color: rgb(25, 29, 65);
+}
+
+.title {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.subtitle {
+    margin-bottom: 10px;
+}
+
+h4 {
+    margin: 0;
+}
+
+.color {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: solid 1px rgb(88, 5, 208);
+}
+
+#helper-icon {
+    border-radius: 50%;
+    border: solid 1px rgb(90, 203, 238);
+    width: 1rem;
+    height: 1rem;
+    padding: 1.5px 5px;
+    margin-right: 10px;
+    text-align: center;
+    color:  rgb(90, 203, 238);
+    cursor: pointer;
+}
+
+#helper-icon:hover {
+    background-color: rgb(90, 203, 238);
+    color: rgb(25, 29, 65);
+    border-color: transparent;
+}
+
+#helper-description {
+    visibility: hidden;
+}
+
+#helper {
+    padding: 5px;
+    bottom: 30px;
+    left: 10px;
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+}
+
+#legend {
+    bottom: 30px;
+    right: 10px;
+}
+
+#popup {
+    display: none;
+    top: 10px;
+    right: 10px;
+}
